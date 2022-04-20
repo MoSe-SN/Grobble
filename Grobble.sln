@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grobble", "Grobble.csproj", "{0A72E8A2-B580-402D-88DE-CC5034EEEFE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grobble.Tests", "..\Grobble.Tests\Grobble.Tests.csproj", "{5F1C4CAA-50A0-4F39-9808-E40F48B63AE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A72E8A2-B580-402D-88DE-CC5034EEEFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A72E8A2-B580-402D-88DE-CC5034EEEFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A72E8A2-B580-402D-88DE-CC5034EEEFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A72E8A2-B580-402D-88DE-CC5034EEEFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1C4CAA-50A0-4F39-9808-E40F48B63AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1C4CAA-50A0-4F39-9808-E40F48B63AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1C4CAA-50A0-4F39-9808-E40F48B63AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1C4CAA-50A0-4F39-9808-E40F48B63AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C035B77A-539D-444B-AE6A-44B29E2E418F}
+	EndGlobalSection
+EndGlobal
