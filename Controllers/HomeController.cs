@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Grobble.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -17,6 +18,7 @@ namespace Grobble.Controllers
         {
             ViewBag.Message = "This is a test page.";
 
+
             return View();
         }
 
@@ -29,7 +31,7 @@ namespace Grobble.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Cameras()
         {
             ViewBag.Message = "Your contact page.";
             ViewBag.NameOfOwner = "BENREBIAI Oussama";
