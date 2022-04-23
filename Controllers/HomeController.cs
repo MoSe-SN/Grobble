@@ -13,9 +13,18 @@ namespace Grobble.Controllers
             return View();
         }
 
+        public ActionResult Test()
+        {
+            ViewBag.Message = "This is a test page.";
+
+            return View();
+        }
+
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "This is our contacts.";
+            ViewBag.NameOfOwner = "BENREBIAI Oussama";
+            ViewBag.EmailOfOwner = "mosercoser@gmail.com";
 
             return View();
         }
@@ -23,6 +32,9 @@ namespace Grobble.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+            ViewBag.NameOfOwner = "BENREBIAI Oussama";
+            ViewBag.EmailOfOwner = "mosercoser@gmail.com";
+
 
             return View();
         }
